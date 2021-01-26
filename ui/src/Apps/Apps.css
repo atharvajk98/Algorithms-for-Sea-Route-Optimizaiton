@@ -1,0 +1,29 @@
+.Apps {
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+.float-menu{
+	margin: 2em;
+	min-height: 80vh;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+
+.app-search{
+	margin:-1.4em;
+	text-align: center;
+	padding-left: 10em;
+	padding-right: 10em;
+	margin-bottom: 0em;
+}
+
+.appBlock{
+	display: inline-block;
+	width: 10em;
+	height: 10em;
+	margin:1em;
+	text-align: center;
+	padding:0.5em;
+	cursor: pointer;
+}

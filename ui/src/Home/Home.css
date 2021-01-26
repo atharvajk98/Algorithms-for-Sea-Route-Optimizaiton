@@ -1,0 +1,92 @@
+
+.Home {
+	min-height: 100vh;
+	width: 100vw;
+	background-image: url('/bg.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.big-logo {
+	height: 20vw;
+	width: 20vw;
+	margin-left: 15vw;
+	margin-top: 10vw; 
+}
+
+.row {
+  display: flex;
+}
+
+.column-1{
+  flex: 50%;
+}
+
+.column-2{
+  flex: 50%;
+}
+
+@media (max-width: 1024px) {
+	.row {
+		display:block;
+		text-align: center;
+	}	
+
+	.big-logo {
+		height: 15vw;
+		width: 15vw;
+		margin:0;
+		margin-top:5vw;
+		margin-bottom: -5vw;
+	}
+}
+.sign-in-flex {
+	display: flex
+}
+.sign-in-col-left{
+	flex: 70%;
+	padding-top:0.7em;
+	text-align: left;
+}
+
+.sign-in-col-right{
+	flex: 30%;
+	text-align: right;
+}
+.separator {
+	width:100%;
+	display: flex;
+	opacity: 0.5;
+	padding: 1em; 
+}
+.separator .line {
+	flex: 40%;
+}
+.separator .or {
+	text-align: center;
+	flex:20%;
+}
+
+.home-form {
+	margin: 10vw 18vw;
+	overflow: hidden;
+}
+
+.slow-anim {
+	transition: 3000ms;
+}
+
+.login-logo {
+	width:2em;
+}
+
+.login-logo-btn {
+	margin-left: 2em;
+}
+
+.user-login-input {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}

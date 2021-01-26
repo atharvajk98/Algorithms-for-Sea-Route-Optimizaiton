@@ -1,0 +1,102 @@
+﻿{
+  "uWindVelocity_500mb": {
+    "name": "U component of wind",
+    "typeOfLevel": "isobaricInhPa",
+    "level": 500,
+    "source": "gfs"
+  },
+  "vWindVelocity_500mb": {
+    "name": "V component of wind",
+    "typeOfLevel": "isobaricInhPa",
+    "level": 500,
+    "source": "gfs"
+  },
+  "windSpeed": {
+    "name": "Wind speed",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "ww3"
+  },
+  "windDirection": {
+    "name": "Wind direction",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "ww3"
+  },
+  "combinedWindSwellHeight": {
+    "name": "Significant height of combined wind waves and swell",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "ww3"
+  },
+  "windWaveMeanPeriod": {
+    "name": "Mean period of wind waves",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "ww3"
+  },
+  "primaryWaveMeanPeriod": {
+    "name": "Primary wave mean period",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "ww3"
+  },
+  "windWaveDirection": {
+    "name": "Direction of wind waves",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "ww3"
+  },
+  "primaryWaveDirection": {
+    "name": "Primary wave direction",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "ww3"
+  },
+  "windWaveHeight": {
+    "name": "Significant height of wind waves",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "ww3"
+  },
+  "secondaryWaveMeanPeriod": {
+    "name": "Secondary wave mean period",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "ww3"
+  },
+  "visibility": {
+    "name": "Visibility",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "gfs"
+  },
+  "surfacePressure": {
+    "name": "Surface pressure",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "gfs"
+  },
+  "iceThickness": {
+    "name": "Ice thickness",
+    "typeOfLevel": "surface",
+    "level": 0,
+    "source": "gfs"
+  },
+  "iceConcentration": {
+    "name": "siconc",
+    "source": "copernicus"
+  },
+  "temperature": {
+    "name": "thetao",
+    "source": "copernicus"
+  },
+  "eastwardCurrentVelocity": {
+    "name": "uo",
+    "source": "copernicus"
+  },
+  "northwardCurrentVelocity": {
+    "name": "vo",
+    "source": "copernicus"
+  }
+}
